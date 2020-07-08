@@ -1,2 +1,2 @@
 # aria
-Docker container for remote pentesting with a focus on Cloud Security Tools
+Container for remote pentesting, with an emphasis on cloud security tools.
