@@ -64,7 +64,7 @@ You can get the IMAGE_ID with **docker images** command
 Clone this repo:
 
 ```
-https://github.com/iknowjason/AriaCloud.git
+git clone https://github.com/iknowjason/AriaCloud.git
 cd AriaCloud
 ```
 Build it:
@@ -97,7 +97,7 @@ Now RDP to your Host computer's IP address on port 3389.
 
 Clone this repo:
 ```
-https://github.com/iknowjason/AriaCloud.git
+git clone https://github.com/iknowjason/AriaCloud.git
 cd AriaCloud
 ```
 Build it:
@@ -130,7 +130,7 @@ Now SSH to your Host computer's IP address on port 22.
 
 Clone this repo:
 ```
-https://github.com/iknowjason/AriaCloud.git
+git clone https://github.com/iknowjason/AriaCloud.git
 cd AriaCloud
 ```
 Build it:
