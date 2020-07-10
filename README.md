@@ -11,30 +11,31 @@ Aria Cloud Penetration Testing Tools Container.  **Aria Cloud** is a Docker Cont
 * ROADTools (https://github.com/dirkjanm/ROADtools)
 * Stormspotter (https://github.com/Azure/Stormspotter)
 * ScoutSuite (https://github.com/nccgroup/ScoutSuite)
-* Cloud_Enum
-* cloudmapper
-* Bucket Stream
-* Pacu
-* WeirdAAL
-* evil-winrm
-* Impacket Python libraries and sample tools
-* Neo4j
-* Bloodhound
-* Plumhound
-* Fox-IT Bloodhound-python data ingestor
-* gitleaks
-* shhgit
-* gitrob
-* Trufflehog
-* detect-secrets
-* Rubeus
-* Mimikatz
+* Cloud_Enum (https://github.com/initstring/cloud_enum)
+* cloudmapper (https://github.com/duo-labs/cloudmapper)
+* Bucket Stream (https://github.com/eth0izzle/bucket-stream)
+* Pacu (https://github.com/RhinoSecurityLabs/pacu)
+* WeirdAAL (https://github.com/carnal0wnage/weirdAAL)
+* evil-winrm (https://github.com/Hackplayers/evil-winrm)
+* Impacket Python library and tools (https://github.com/SecureAuthCorp/impacket)
+* Neo4j(https://neo4j.com/)
+* Bloodhound (https://github.com/BloodHoundAD/BloodHound)
+* Plumhound (https://github.com/DefensiveOrigins/PlumHound)
+* Fox-IT Bloodhound-python data ingestor (https://github.com/fox-it/BloodHound.py)
+* gitleaks (https://github.com/zricethezav/gitleaks)
+* shhgit (https://github.com/eth0izzle/shhgit)
+* gitrob (https://github.com/michenriksen/gitrob)
+* Trufflehog (https://github.com/dxa4481/truffleHog)
+* detect-secrets (https://github.com/Yelp/detect-secrets)
+* Rubeus (https://github.com/GhostPack/Rubeus)
+* Mimikatz (https://github.com/gentilkiwi/mimikatz)
+
 
 # Default Credentials
 Username:  aria
 Password:  !aria123!
 
-Most special tools are installed into /opt directory if they aren't in the default /usr/local/bin/ path
+Most special tools are installed into **/opt** directory if they aren't in the default /usr/local/bin/ path
 
 # 3 Docker Containers:  3 Potential Use Cases:
 1.  aria-base:  Attach to /bin/bash local console, and do your thing.
@@ -46,6 +47,7 @@ Most special tools are installed into /opt directory if they aren't in the defau
 **Pre-requisite:** Install docker for your system
 
 **Quickly run it with docker pull:** 
+
 ```
 docker pull iknowjason/aira-base:latest
 ```
