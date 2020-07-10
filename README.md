@@ -89,6 +89,7 @@ Bind the RDP ports from the docker container to expose them on the LAN interface
 docker run -d --name myname -p 3389:3389 <IMAGE_ID>
 ```
 You can get the IMAGE_ID with **docker images** command
+
 Verify ports:
 ```
 docker port myname
@@ -122,6 +123,7 @@ Bind the SSH ports from the docker container to expose them on the LAN interface
 docker run -d --name myname -p 22:22 <IMAGE_ID>
 ```
 You can get the IMAGE_ID with **docker images** command
+
 Verify ports:
 ```
 docker port myname
