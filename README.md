@@ -18,7 +18,7 @@ Aria Cloud Penetration Testing Tools Container.  **Aria Cloud** is a Docker Cont
 * WeirdAAL (https://github.com/carnal0wnage/weirdAAL)
 * evil-winrm (https://github.com/Hackplayers/evil-winrm)
 * Impacket Python library and tools (https://github.com/SecureAuthCorp/impacket)
-* Neo4j(https://neo4j.com/)
+* Neo4j (https://neo4j.com/)
 * Bloodhound (https://github.com/BloodHoundAD/BloodHound)
 * Plumhound (https://github.com/DefensiveOrigins/PlumHound)
 * Fox-IT Bloodhound-python data ingestor (https://github.com/fox-it/BloodHound.py)
@@ -56,8 +56,11 @@ Run it!
 docker run -ti <IMAGE_ID>
 ```
 You can get the IMAGE_ID with **docker images** command
+
 **Build It** 
+
 Clone this repo:
+
 ```
 https://github.com/iknowjason/AriaCloud.git
 cd AriaCloud
@@ -89,6 +92,7 @@ docker port myname
 Now RDP to your Host computer's IP address on port 3389.
 
 **Build It** 
+
 Clone this repo:
 ```
 https://github.com/iknowjason/AriaCloud.git
@@ -121,6 +125,7 @@ docker port myname
 Now SSH to your Host computer's IP address on port 22.
 
 **Build It** 
+
 Clone this repo:
 ```
 https://github.com/iknowjason/AriaCloud.git
@@ -136,8 +141,8 @@ docker run -d --name myname -p 22:22 aria
 ```
 
 # To Do
-* Integration into AD Pentest CyberRange for automated deployment using Terraform template + Ansible Playbook
-* k8s tools
+* Integration into AD Pentest CyberRange for automated deployment using Terraform Template + Ansible Playbook
+* K8s tools
 
 # Hat Tips
 * Offensive Security team for Kali
