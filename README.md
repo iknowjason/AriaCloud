@@ -61,7 +61,7 @@ docker run -ti <IMAGE_ID>
 ```
 You can get the IMAGE_ID with **docker images** command
 
-**Build It** 
+**Build & Run It** 
 
 Clone this repo:
 
@@ -69,11 +69,11 @@ Clone this repo:
 git clone https://github.com/iknowjason/AriaCloud.git
 cd AriaCloud
 ```
-Build it:
+Build:
 ```
 docker build -f Dockerfile.base -t aria .
 ```
-Run it:
+Run:
 ```
 docker run -ti aria
 ```
@@ -96,18 +96,18 @@ docker port myname
 ```
 Now RDP to your Host computer's IP address on port 3389.
 
-**Build It** 
+**Build & Run It** 
 
 Clone this repo:
 ```
 git clone https://github.com/iknowjason/AriaCloud.git
 cd AriaCloud
 ```
-Build it:
+Build:
 ```
 docker build -f Dockerfile.rdp -t aria .
 ```
-Run it:
+Run:
 ```
 docker run -d --name myname -p 3389:3389 aria
 ```
@@ -130,18 +130,18 @@ docker port myname
 ```
 Now SSH to your Host computer's IP address on port 22.
 
-**Build It** 
+**Build & Run It** 
 
 Clone this repo:
 ```
 git clone https://github.com/iknowjason/AriaCloud.git
 cd AriaCloud
 ```
-Build it:
+Build:
 ```
 docker build -f Dockerfile.ssh -t aria .
 ```
-Run it:
+Run:
 ```
 docker run -d --name myname -p 22:22 aria
 ```
