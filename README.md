@@ -41,7 +41,9 @@ Most special tools are installed into **/opt** directory if they aren't in the d
 
 # 3 Docker Containers:  3 Potential Use Cases
 **Use Case #1:**  aria-base:  Attach to /bin/bash local console, and do your thing.
+
 **Use Case #2:**  aria-rdp:  Use an RDP client to remotely access the container.  Best for running Bloodhound and other tools that require Neo4j GUI.
+
 **Use Case #3:**  aria-ssh:  Use an SSH client to remotely access the container.
 
 # Base Image Use Case:  Build or Pull, and then Run 
