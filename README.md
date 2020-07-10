@@ -32,15 +32,17 @@ Aria Cloud Penetration Testing Tools Container.  **Aria Cloud** is a Docker Cont
 
 
 # Default Credentials
-Username:  aria
-Password:  !aria123!
+
+**Username:**  aria
+
+**Password:**  !aria123!
 
 Most special tools are installed into **/opt** directory if they aren't in the default /usr/local/bin/ path
 
-# 3 Docker Containers:  3 Potential Use Cases:
-1.  aria-base:  Attach to /bin/bash local console, and do your thing.
-2.  aria-rdp:  Use an RDP client to remotely access the container.  Best for running Bloodhound and other tools that require Neo4j GUI.
-3.  aria-ssh:  Use an SSH client to remotely access the container.
+# 3 Docker Containers:  3 Potential Use Cases
+**Use Case #1:**  aria-base:  Attach to /bin/bash local console, and do your thing.
+**Use Case #2:**  aria-rdp:  Use an RDP client to remotely access the container.  Best for running Bloodhound and other tools that require Neo4j GUI.
+**Use Case #3:**  aria-ssh:  Use an SSH client to remotely access the container.
 
 # Base Image Use Case:  Build or Pull, and then Run 
 
