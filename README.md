@@ -53,7 +53,7 @@ Most special tools are installed into **/opt** directory if they aren't in the d
 **Quickly run it with docker pull:** 
 
 ```
-docker pull iknowjason/aira-base:latest
+docker pull iknowjason/aria-base:latest
 ```
 Run it!
 ```
@@ -82,7 +82,7 @@ docker run -ti aria
 
 **Quickly run it with docker pull:** 
 ```
-docker pull iknowjason/aira-rdp:latest
+docker pull iknowjason/aria-rdp:latest
 ```
 Bind the RDP ports from the docker container to expose them on the LAN interface of the host computer
 ```
@@ -115,7 +115,7 @@ docker run -d --name myname -p 3389:3389 aria
 
 **Quickly run it with docker pull:** 
 ```
-docker pull iknowjason/aira-ssh:latest
+docker pull iknowjason/aria-ssh:latest
 ```
 Bind the SSH ports from the docker container to expose them on the LAN interface of the host computer
 ```
