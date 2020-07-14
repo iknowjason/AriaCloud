@@ -96,7 +96,7 @@ There are two important files created in the working directory after deployment:
 
 Additionally, the README.ANSIBLE.txt file includes some Ansible test commands that you can run if you are having trouble.
 
-First, Ttake note of the public IP address of the VM.
+First, take note of the public IP address of the VM.
 
 ```cat hosts.cfg```
 
