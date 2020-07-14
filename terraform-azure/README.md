@@ -89,7 +89,9 @@ This should start the Terraform automated deployment plan
 **Step 6:** Verify SSH and RDP protocol access
 
 There are two important files created in the working directory after deployment:
+
 **1.  ssh_key.pem:**  The SSH private key used for public key authentication into the Ubuntu Linux VM.
+
 **2.  hosts.cfg:**  This file is used by Ansible and the second line is the public IP address of the Linux VM.
 
 Additionally, the README.ANSIBLE.txt file includes some Ansible test commands that you can run if you are having trouble.
