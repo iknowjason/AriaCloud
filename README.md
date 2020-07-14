@@ -61,8 +61,9 @@ docker pull iknowjason/aria-base:latest
 ```
 Run it!
 ```
-docker run -ti <IMAGE_ID>
+docker run -ti iknowjason/aria-base:latest
 ```
+
 You can get the IMAGE_ID with **docker images** command
 
 **Build & Run It** 
@@ -85,13 +86,17 @@ docker run -ti aria
 # RDP Container Use Case:  Build or Pull, and then Run 
 
 **Quickly run it with docker pull:** 
+
 ```
 docker pull iknowjason/aria-rdp:latest
 ```
+
 Bind the RDP ports from the docker container to expose them on the LAN interface of the host computer
+
 ```
-docker run -d --name myname -p 3389:3389 <IMAGE_ID>
+docker run -d --name myname -p 3389:3389 iknowjason/aria-rdp:latest
 ```
+
 You can get the IMAGE_ID with **docker images** command
 
 Verify ports:
@@ -124,7 +129,7 @@ docker pull iknowjason/aria-ssh:latest
 ```
 Bind the SSH ports from the docker container to expose them on the LAN interface of the host computer
 ```
-docker run -d --name myname -p 22:22 <IMAGE_ID>
+docker run -d --name myname -p 22:22 iknowjason/aria-ssh:latest
 ```
 You can get the IMAGE_ID with **docker images** command
 
