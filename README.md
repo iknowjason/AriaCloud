@@ -1,6 +1,9 @@
 # Aria Cloud Overview
 Aria Cloud Penetration Testing Tools Container.  **Aria Cloud** is a Docker Container ideal for remote pentesting over SSH or RDP, with a primary emphasis on cloud security tools and secondary on Active Directory tools.  Use it for an assumed breach pentest where remote access is necessary via RDP or SSH, or for simple AD lab testing.  It is built for use cases where one needs to remote into a container using SSH or RDP, and then run their security workflows (i.e., Cloud environments).  This repo also included an automated Terraform template + Ansible Playbook to deploy Aria Cloud as a container running on an Ubuntu Linux VM, with remote access over RDP. 
 
+Medium Blog:  https://medium.com/bugbountywriteup/pentesting-in-the-clouds-introducing-ariacloud-58cb5cc1c50d
+
+
 # Summary of Tools (Image Built on Kali Linux Rolling)
 * Metapackages:  kali-linux-core, kali-linux-top10, kali-desktop-core
 * xRDP and SSH (for remote access)
