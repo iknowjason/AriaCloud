@@ -159,7 +159,7 @@ docker run -d --name myname -p 22:22 aria
 ```
 
 # To Do
-* Fix small errors after RDP connectoin and auth success
+* Fix small errors after RDP connection and auth success
 * Fix MacOS RDP client black screen
 * Terraform template deployment for AWS
 * K8s tools
